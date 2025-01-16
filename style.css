@@ -1,0 +1,132 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #555;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #ff6347;
+}
+
+/* Section Styles */
+.section-padding {
+  padding: 60px 0;
+}
+
+/* Introduction Section */
+#home {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#home h1 span {
+  color: #ff6347;
+}
+
+/* About Section */
+#about {
+  background-color: #fff;
+  text-align: center;
+}
+
+#about p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Projects Section */
+#projects .project-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#projects .project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+#projects a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Skills Section */
+.skills-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skills-list li {
+  background-color: #ff6347;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+/* Contact Form */
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #ff6347;
+}
